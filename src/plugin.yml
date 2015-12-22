@@ -1,0 +1,32 @@
+name: PlayerCountMessage
+version: 4.3
+main: com.flyingblock.pcm.PcmMain
+author: flyguy23ndm
+depend: [ProtocolLib]
+commands:
+  pcm:
+    description: Main command for Player Count Message plugin.
+    usage: /pcm [args]
+    permission: pcm.pcm
+    permission-message: You don't have <permission>
+  motd:
+    description: Main command for MOTD
+    usage: /pcm motd [args]
+    premission: pcm.motd
+    permission-message: You don't have <permission>
+  play:
+    description: Main command for the Player List
+    usage: /pcm play [args]
+    premission: pcm.play
+    permission-message: You don't have <permission>
+  img:
+    description: Main command for the server icon
+    usage: /pcm img [args]
+    premission: pcm.img
+    permission-message: You don't have <permission>
+  vers:
+    description: Main command for the version text
+    usage: /pcm vers [args]
+    premission: pcm.vers
+    permission-message: You don't have <permission>
+    

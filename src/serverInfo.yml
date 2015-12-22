@@ -1,0 +1,61 @@
+length: 10000
+ping_interval: 100
+guestname: 'Guest'
+world: 'world'
+players-and-staff: true
+
+players:
+    frame_size: 50
+    lines:
+        - "These are the player lines"
+        - "edit them with the command &b/pcm play [args]"
+        - "there are different types of animations"
+        - "set them in the config file or with command"
+        - "&rdo &f'&6/pcm help&f' &rfor help with commands;&rdo &f'&b/pcm help&f' &rfor help with commands"
+    animations:
+        - "none"
+        - "none"
+        - "scroll forward"
+        - "scroll back"
+        - "frames"
+    intervals:
+        - 100
+        - 50
+        - 80
+        - 50
+        - 400
+    loops:
+        - 0
+        - 0
+        - 2
+        - 1
+        - -1
+
+motd:
+    frame_size: 50
+    lines:
+        - "&aThis is the motd, you can do all sorts of stuff here. Even welcome players!  "
+        - "&bWelcome&f: &6%user%"
+    animations:
+        - "wrap forward"
+        - "none"
+    intervals:
+        - 100
+        - 0
+    loops:
+        - -1
+        - 1
+
+version:
+    frame_size: 20
+    text: "&6Players&f: %online%&b/&f%max%"
+    animation: "scroll back"
+    interval: 100
+    loops: -1
+
+server-icon:
+    image_name: "server-icon.gif"
+    animation: "gif"
+    interval: 40
+    loops: -1
+    
